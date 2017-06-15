@@ -78,8 +78,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayAttackScript.cs" />
-    <Compile Include="Assets\PlayerMovementBasic.cs" />
+    <Compile Include="Assets\Scripts\AIScripts\BasicEnemyAI.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayAttackScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovementBasic.cs" />
+    <Compile Include="Assets\Scripts\SpellScripts\Fireball\ExplosionBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SpellScripts\Fireball\FireballBehaviour.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
